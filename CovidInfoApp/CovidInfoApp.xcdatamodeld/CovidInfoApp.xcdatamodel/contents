@@ -1,4 +1,42 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="false" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="18154" systemVersion="20D91" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CovidCases" representedClassName="CovidCases" syncable="YES" codeGenerationType="class">
+        <attribute name="aantalgevallen" optional="YES"/>
+        <attribute name="datum" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="geslacht" optional="YES" attributeType="String"/>
+        <attribute name="gewest" optional="YES" attributeType="String"/>
+        <attribute name="leeftijdsgroep" optional="YES" attributeType="String"/>
+        <attribute name="province" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="CovidData" representedClassName="CovidData" syncable="YES" codeGenerationType="class">
+        <attribute name="attribute" optional="YES"/>
+        <attribute name="attribute1" optional="YES"/>
+        <attribute name="attribute2" optional="YES"/>
+        <attribute name="attribute3" optional="YES"/>
+        <attribute name="attribute4" optional="YES"/>
+        <attribute name="laatstefetch" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="startmoment" optional="YES" attributeType="Date" minDateTimeInterval="643822380" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="CovidDeaths" representedClassName="CovidDeaths" syncable="YES" codeGenerationType="class">
+        <attribute name="aantaldoden" optional="YES" attributeType="String"/>
+        <attribute name="datum" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="geslacht" optional="YES" attributeType="String"/>
+        <attribute name="gewest" optional="YES" attributeType="String"/>
+        <attribute name="leeftijdsgroep" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="CovidVaccinated" representedClassName="CovidVaccinated" syncable="YES" codeGenerationType="class">
+        <attribute name="aantalgevaccineerden" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="aantalprikken" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="datum" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="geslacht" optional="YES" attributeType="String"/>
+        <attribute name="gewest" optional="YES" attributeType="String"/>
+        <attribute name="leeftijdsgroep" optional="YES" attributeType="String"/>
+        <attribute name="producent" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="CovidData" positionX="-63" positionY="-18" width="128" height="134"/>
+        <element name="CovidCases" positionX="-45" positionY="18" width="128" height="119"/>
+        <element name="CovidDeaths" positionX="-27" positionY="72" width="128" height="104"/>
+        <element name="CovidVaccinated" positionX="-9" positionY="99" width="128" height="134"/>
+    </elements>
 </model>
