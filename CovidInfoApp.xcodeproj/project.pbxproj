@@ -20,6 +20,14 @@
 		3F4FFACC2660027C00573206 /* DodenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4FFACB2660027C00573206 /* DodenViewController.swift */; };
 		3F4FFACE2660029F00573206 /* VaccinsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4FFACD2660029F00573206 /* VaccinsViewController.swift */; };
 		3F4FFAD0266002EA00573206 /* WaaromViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4FFACF266002EA00573206 /* WaaromViewController.swift */; };
+		3F4FFAD9266009C300573206 /* CovidCases+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4FFAD1266009C300573206 /* CovidCases+CoreDataClass.swift */; };
+		3F4FFADA266009C300573206 /* CovidCases+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4FFAD2266009C300573206 /* CovidCases+CoreDataProperties.swift */; };
+		3F4FFADB266009C300573206 /* CovidVaccinated+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4FFAD3266009C300573206 /* CovidVaccinated+CoreDataClass.swift */; };
+		3F4FFADC266009C300573206 /* CovidVaccinated+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4FFAD4266009C300573206 /* CovidVaccinated+CoreDataProperties.swift */; };
+		3F4FFADD266009C300573206 /* CovidData+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4FFAD5266009C300573206 /* CovidData+CoreDataClass.swift */; };
+		3F4FFADE266009C300573206 /* CovidData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4FFAD6266009C300573206 /* CovidData+CoreDataProperties.swift */; };
+		3F4FFADF266009C300573206 /* CovidDeaths+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4FFAD7266009C300573206 /* CovidDeaths+CoreDataClass.swift */; };
+		3F4FFAE0266009C300573206 /* CovidDeaths+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4FFAD8266009C300573206 /* CovidDeaths+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +67,14 @@
 		3F4FFACB2660027C00573206 /* DodenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DodenViewController.swift; sourceTree = "<group>"; };
 		3F4FFACD2660029F00573206 /* VaccinsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaccinsViewController.swift; sourceTree = "<group>"; };
 		3F4FFACF266002EA00573206 /* WaaromViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaaromViewController.swift; sourceTree = "<group>"; };
+		3F4FFAD1266009C300573206 /* CovidCases+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CovidCases+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3F4FFAD2266009C300573206 /* CovidCases+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CovidCases+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3F4FFAD3266009C300573206 /* CovidVaccinated+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CovidVaccinated+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3F4FFAD4266009C300573206 /* CovidVaccinated+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CovidVaccinated+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3F4FFAD5266009C300573206 /* CovidData+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CovidData+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3F4FFAD6266009C300573206 /* CovidData+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CovidData+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3F4FFAD7266009C300573206 /* CovidDeaths+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CovidDeaths+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3F4FFAD8266009C300573206 /* CovidDeaths+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CovidDeaths+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +105,14 @@
 		3F4FFA8A265FEBDE00573206 = {
 			isa = PBXGroup;
 			children = (
+				3F4FFAD1266009C300573206 /* CovidCases+CoreDataClass.swift */,
+				3F4FFAD2266009C300573206 /* CovidCases+CoreDataProperties.swift */,
+				3F4FFAD3266009C300573206 /* CovidVaccinated+CoreDataClass.swift */,
+				3F4FFAD4266009C300573206 /* CovidVaccinated+CoreDataProperties.swift */,
+				3F4FFAD5266009C300573206 /* CovidData+CoreDataClass.swift */,
+				3F4FFAD6266009C300573206 /* CovidData+CoreDataProperties.swift */,
+				3F4FFAD7266009C300573206 /* CovidDeaths+CoreDataClass.swift */,
+				3F4FFAD8266009C300573206 /* CovidDeaths+CoreDataProperties.swift */,
 				3F4FFA95265FEBDE00573206 /* CovidInfoApp */,
 				3F4FFAAF265FEBE200573206 /* CovidInfoAppTests */,
 				3F4FFABA265FEBE200573206 /* CovidInfoAppUITests */,
@@ -273,13 +297,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F4FFADB266009C300573206 /* CovidVaccinated+CoreDataClass.swift in Sources */,
+				3F4FFADF266009C300573206 /* CovidDeaths+CoreDataClass.swift in Sources */,
+				3F4FFAD9266009C300573206 /* CovidCases+CoreDataClass.swift in Sources */,
 				3F4FFA9B265FEBDE00573206 /* ViewController.swift in Sources */,
+				3F4FFADE266009C300573206 /* CovidData+CoreDataProperties.swift in Sources */,
 				3F4FFACC2660027C00573206 /* DodenViewController.swift in Sources */,
 				3F4FFA97265FEBDE00573206 /* AppDelegate.swift in Sources */,
 				3F4FFAD0266002EA00573206 /* WaaromViewController.swift in Sources */,
+				3F4FFAE0266009C300573206 /* CovidDeaths+CoreDataProperties.swift in Sources */,
 				3F4FFA99265FEBDE00573206 /* SceneDelegate.swift in Sources */,
 				3F4FFACA2660023800573206 /* InfectiesViewController.swift in Sources */,
+				3F4FFADA266009C300573206 /* CovidCases+CoreDataProperties.swift in Sources */,
+				3F4FFADC266009C300573206 /* CovidVaccinated+CoreDataProperties.swift in Sources */,
 				3F4FFACE2660029F00573206 /* VaccinsViewController.swift in Sources */,
+				3F4FFADD266009C300573206 /* CovidData+CoreDataClass.swift in Sources */,
 				3F4FFAA1265FEBDE00573206 /* CovidInfoApp.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

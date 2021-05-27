@@ -8,15 +8,45 @@
 import UIKit
 
 class DodenViewController: UIViewController {
+    
+    var doden : [CovidDeaths]?
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        getNrOfCovidDeathsFromSciensana()
         /// https://epistat.sciensano.be/Data/COVID19BE_MORT.json -> death count
 
         // Do any additional setup after loading the view.
     }
     
+    
+    getNrOfCovidDeathsFromSciensana() -> Void {
+        let url = URL(string: "https://epistat.sciensano.be/Data/COVID19BE_MORT.json")!
+        
+        let task = URLSession.shared.dataTask(with: url) {
+        (data: Data?, response: URLResponse?, error: Error?) -> Void in
+            
+            if let jsonData = data
+            {
+                let decoder = JSONDecoder()
+
+                do {
+                    self.infecties = try
+                        decoder.decode([CovidDeaths].self, from: jsonData)
+                    
+                } catch {
+                    print(error.localizedDescription)
+                }
+            }
+         /*   DispatchQueue.main.async {
+                self.addAnnotations()
+            } */
+        }
+        task.resume()
+    
+    }
+        
+    }
 
     /*
     // MARK: - Navigation

@@ -6,16 +6,46 @@
 //
 
 import UIKit
+import 
+
 
 class InfectiesViewController: UIViewController {
 
+    var infecties : [CovidCases]?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        getNrOfCovidCasesFromSciensana()
         /// https://epistat.sciensano.be/Data/COVID19BE_CASES_AGESEX.json -> cases
 
         // Do any additional setup after loading the view.
     }
     
+    func getNrOfCovidCasesFromSciensana() -> Void {
+        let url = URL(string: "https://epistat.sciensano.be/Data/COVID19BE_CASES_AGESEX.json")!
+        
+        let task = URLSession.shared.dataTask(with: url) {
+        (data: Data?, response: URLResponse?, error: Error?) -> Void in
+            
+            if let jsonData = data
+            {
+                let decoder = JSONDecoder()
+
+                do {
+                    self.infecties = try
+                        decoder.decode([CovidCases].self, from: jsonData)
+                    
+                } catch {
+                    print(error.localizedDescription)
+                }
+            }
+         /*   DispatchQueue.main.async {
+                self.addAnnotations()
+            } */
+        }
+        task.resume()
+    
+    }
 
     /*
     // MARK: - Navigation
