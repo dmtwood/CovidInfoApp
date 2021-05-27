@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  CovidInfoApp
 //
-//  Created by student on 27/05/2021.
+//  Copyright © Dimitri Gevers. All rights reserved. Created on 27/05/2021.
 //
 
 import UIKit
