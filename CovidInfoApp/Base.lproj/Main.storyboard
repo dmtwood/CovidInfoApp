@@ -11,7 +11,7 @@
         <!--infecties-->
         <scene sceneID="Xwd-0P-L9k">
             <objects>
-                <viewController id="wqk-rn-Rmc" sceneMemberID="viewController">
+                <viewController id="wqk-rn-Rmc" customClass="InfectiesViewController" customModule="CovidInfoApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mAL-aq-m0L">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -22,12 +22,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vN7-4L-MOt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1436" y="510"/>
+            <point key="canvasLocation" x="-1172" y="510"/>
         </scene>
         <!--Doden-->
         <scene sceneID="hU0-dv-YKf">
             <objects>
-                <viewController id="XqM-JI-urY" sceneMemberID="viewController">
+                <viewController id="XqM-JI-urY" customClass="DodenViewController" customModule="CovidInfoApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Wo6-GR-SEt">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -43,7 +43,7 @@
         <!--Vaccins-->
         <scene sceneID="i29-6l-ZVC">
             <objects>
-                <viewController id="IBd-xT-fNl" sceneMemberID="viewController">
+                <viewController id="IBd-xT-fNl" customClass="VaccinsViewController" customModule="CovidInfoApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lF5-J5-sfY">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -54,12 +54,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C3V-Nr-XfK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="257" y="510"/>
+            <point key="canvasLocation" x="138" y="510"/>
         </scene>
         <!--Waarom-->
         <scene sceneID="Qm4-5d-GYQ">
             <objects>
-                <viewController id="0dY-rl-r92" sceneMemberID="viewController">
+                <viewController id="0dY-rl-r92" customClass="WaaromViewController" customModule="CovidInfoApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="K6q-mL-3la">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -70,7 +70,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ezf-Q1-vTj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1055" y="510"/>
+            <point key="canvasLocation" x="807" y="510"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="fFX-Id-kwB">

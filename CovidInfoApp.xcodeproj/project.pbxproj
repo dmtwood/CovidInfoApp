@@ -16,6 +16,10 @@
 		3F4FFAA6265FEBE200573206 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F4FFAA4265FEBE200573206 /* LaunchScreen.storyboard */; };
 		3F4FFAB1265FEBE200573206 /* CovidInfoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4FFAB0265FEBE200573206 /* CovidInfoAppTests.swift */; };
 		3F4FFABC265FEBE200573206 /* CovidInfoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4FFABB265FEBE200573206 /* CovidInfoAppUITests.swift */; };
+		3F4FFACA2660023800573206 /* InfectiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4FFAC92660023800573206 /* InfectiesViewController.swift */; };
+		3F4FFACC2660027C00573206 /* DodenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4FFACB2660027C00573206 /* DodenViewController.swift */; };
+		3F4FFACE2660029F00573206 /* VaccinsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4FFACD2660029F00573206 /* VaccinsViewController.swift */; };
+		3F4FFAD0266002EA00573206 /* WaaromViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4FFACF266002EA00573206 /* WaaromViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		3F4FFAB7265FEBE200573206 /* CovidInfoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CovidInfoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F4FFABB265FEBE200573206 /* CovidInfoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovidInfoAppUITests.swift; sourceTree = "<group>"; };
 		3F4FFABD265FEBE200573206 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F4FFAC92660023800573206 /* InfectiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfectiesViewController.swift; sourceTree = "<group>"; };
+		3F4FFACB2660027C00573206 /* DodenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DodenViewController.swift; sourceTree = "<group>"; };
+		3F4FFACD2660029F00573206 /* VaccinsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaccinsViewController.swift; sourceTree = "<group>"; };
+		3F4FFACF266002EA00573206 /* WaaromViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaaromViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +117,10 @@
 				3F4FFAA4265FEBE200573206 /* LaunchScreen.storyboard */,
 				3F4FFAA7265FEBE200573206 /* Info.plist */,
 				3F4FFA9F265FEBDE00573206 /* CovidInfoApp.xcdatamodeld */,
+				3F4FFAC92660023800573206 /* InfectiesViewController.swift */,
+				3F4FFACB2660027C00573206 /* DodenViewController.swift */,
+				3F4FFACD2660029F00573206 /* VaccinsViewController.swift */,
+				3F4FFACF266002EA00573206 /* WaaromViewController.swift */,
 			);
 			path = CovidInfoApp;
 			sourceTree = "<group>";
@@ -262,8 +274,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F4FFA9B265FEBDE00573206 /* ViewController.swift in Sources */,
+				3F4FFACC2660027C00573206 /* DodenViewController.swift in Sources */,
 				3F4FFA97265FEBDE00573206 /* AppDelegate.swift in Sources */,
+				3F4FFAD0266002EA00573206 /* WaaromViewController.swift in Sources */,
 				3F4FFA99265FEBDE00573206 /* SceneDelegate.swift in Sources */,
+				3F4FFACA2660023800573206 /* InfectiesViewController.swift in Sources */,
+				3F4FFACE2660029F00573206 /* VaccinsViewController.swift in Sources */,
 				3F4FFAA1265FEBDE00573206 /* CovidInfoApp.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
